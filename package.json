@@ -1,0 +1,45 @@
+{
+  "name": "@iceylan/ast-generator",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "description": "Creates abstracted node trees by performing logical and sequential reading operations on strings.",
+  "main": "./dist/ast-generator.umd.cjs",
+  "module": "./dist/ast-generator.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ast-generator.js",
+      "require": "./dist/ast-generator.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "standard-version",
+    "publish-package": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailceylan/ast-generator-3.git"
+  },
+  "keywords": [
+    "abstract",
+    "syntax",
+    "tree",
+    "ast",
+    "parser",
+    "javascript"
+  ],
+  "author": "Ismail Ceylan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismailceylan/ast-generator-3/issues"
+  },
+  "homepage": "https://github.com/ismailceylan/ast-generator-3#readme",
+  "devDependencies": {
+    "vite": "^5.3.1"
+  }
+}
