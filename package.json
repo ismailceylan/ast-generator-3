@@ -1,17 +1,17 @@
 {
-  "name": "@iceylan/ast-generator",
-  "version": "0.0.1",
+  "name": "@iceylan/ast-gen",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
   ],
   "description": "Creates abstracted node trees by performing logical and sequential reading operations on strings.",
-  "main": "./dist/ast-generator.umd.cjs",
-  "module": "./dist/ast-generator.js",
+  "main": "./dist/ast-gen.umd.cjs",
+  "module": "./dist/ast-gen.js",
   "exports": {
     ".": {
-      "import": "./dist/ast-generator.js",
-      "require": "./dist/ast-generator.umd.cjs"
+      "import": "./dist/ast-gen.js",
+      "require": "./dist/ast-gen.umd.cjs"
     }
   },
   "scripts": {
