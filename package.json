@@ -1,6 +1,6 @@
 {
   "name": "@iceylan/ast-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -41,5 +41,8 @@
   "homepage": "https://github.com/ismailceylan/ast-generator-3#readme",
   "devDependencies": {
     "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@iceylan/tokenizer": "^0.0.3"
   }
 }
