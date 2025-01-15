@@ -40,7 +40,7 @@ const ast = MarkdownParser.parse( "This is **italic** text!" );
 
 The `ast` variable holds the following node tree:
 
-```json
+```js
 [
 	Token { "name": Symbol(blank), "value": "This is ", "line": 1, "start": 1, "end": 4 },
 	ASTNode {
@@ -101,7 +101,7 @@ const rules =
 
 With the help of these token configuration, tokenizer will tokenize all the consecutive numbers into single token and all the dots into private tokens.
 
-```json
+```js
 [
 	Token { "name": Symbol(blank), "value": "Here is a decimal number: ", "line": 1, "start": 1, "end": 26 },
 	Token { "name": "numbers", "value": "3", "line": 1, "start": 27, "end": 27 },
@@ -137,7 +137,7 @@ const ast = MarkdownParser.parse( str );
 
 The `ast` variable holds the following node tree (line information will be removed to avoid dirty images):
 
-```json
+```js
 [
 	Token { "name": Symbol(blank), "value": "Here is a decimal number: " },
 	ASTNode {
